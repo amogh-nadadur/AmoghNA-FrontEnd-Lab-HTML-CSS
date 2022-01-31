@@ -1,0 +1,85 @@
+#Container{
+    position: absolute;
+    top: 20%;
+    left: 30%;
+    height: 450px;
+    width: 250px;
+    background-color: rgb(233, 233, 233);
+}
+
+.graphMeter{
+    display: inline-block;
+    height: 300px;
+    width: 40px;
+    background-color: lightgray;
+    position: relative;
+    top: 5%;
+    left: 10%;
+    margin-right: 37px;
+}
+
+.graphCount{
+    display: inline-block;
+    height: 40px;
+    width:38px;
+    text-align: center;
+    position: relative;
+    top: 5%;
+    left: 10%;
+    margin-top: 20px;
+    margin-right: 37px;
+}
+
+.graphTitle{
+    text-align: center;
+    position: relative;
+    top: 5%;
+    left: 30%;
+    margin-top: 20px;
+    margin-right: 37px;
+    font-weight: bold;
+    font-size: large;
+    height: 40px;
+    width: 100px;
+}
+
+#meter1{
+    position: relative;
+    bottom: 00%;
+    height: 30px;
+    animation-name: meter1;
+    animation-duration: 2s;
+    animation-fill-mode: forwards
+}
+
+@keyframes meter1{
+    0%   {background-color:white;  height: 100%}
+    100% {background-color:white;  height: 70%;}
+}
+
+#meter2{
+    position: relative;
+    bottom: 00%;
+    height: 30px;
+    animation-name: meter2;
+    animation-duration: 2s;
+    animation-fill-mode: forwards
+}
+
+@keyframes meter2{
+    0%   {background-color:white;  height: 100%}
+    100% {background-color:white;  height: 60%;}
+}
+#meter3{
+    position: relative;
+    bottom: 00%;
+    height: 30px;
+    animation-name: meter3;
+    animation-duration: 2s;
+    animation-fill-mode: forwards
+}
+
+@keyframes meter3{
+    0%   {background-color:white;  height: 100%}
+    100% {background-color:white;  height: 20%;}
+}
